@@ -7,10 +7,10 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="sempretestando", 
+    name="sempretestando-triksm", 
     version="0.0.1",
     author="TRIKSM",
-    author_email="seu_email@example.com",
+    author_email="tariktasima@gmail.com",
     description="Um pacote simples para processamento de imagens",
     long_description=page_description,
     long_description_content_type="text/markdown", # [cite: 87]
