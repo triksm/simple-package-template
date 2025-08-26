@@ -1,27 +1,24 @@
-# package_name
+# Meu Pacote de Imagens
 
-Description. 
-The package package_name is used to:
-	- 
-	-
+Este pacote é um exemplo para aprender a criar pacotes em Python. Ele contém funções para ler imagens e convertê-las para escala de cinza.
 
-## Installation
+## Instalação
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use o gerenciador de pacotes pip para instalar:
+```pip install seu-nome-de-pacote-unico```
 
-```bash
-pip install package_name
-```
-
-## Usage
+## Uso
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
-```
+# Importe as funções dos seus módulos
+from package_name import file1_name, file2_name
 
-## Author
-My_name
+# Leia uma imagem do seu computador
+caminho = 'caminho/para/sua/imagem.jpg'
+imagem = file2_name.ler_imagem(caminho)
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+# Converta para escala de cinza
+imagem_cinza = file1_name.para_escala_de_cinza(imagem)
+
+# Mostre o resultado
+file2_name.mostrar_imagem(imagem_cinza, titulo='Resultado em Cinza')

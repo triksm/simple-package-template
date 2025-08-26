@@ -7,15 +7,15 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="sempretestando", 
     version="0.0.1",
-    author="my_name",
-    author_email="my_email",
-    description="My short description",
+    author="TRIKSM",
+    author_email="seu_email@example.com",
+    description="Um pacote simples para processamento de imagens",
     long_description=page_description,
-    long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    long_description_content_type="text/markdown", # [cite: 87]
+    url="https://github.com/triksm/simple-package-template",
     packages=find_packages(),
     install_requires=requirements,
-    python_requires='>=3.8',
+    python_requires='>=3.8', # [cite: 87]
 )
